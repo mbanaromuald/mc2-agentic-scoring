@@ -4,7 +4,7 @@
 Projet conçu et réalisé par **Romuald MBANA MEDJO**
 
 🔗 **Tester l'application en ligne :** **[mc2-agentic-scoring.streamlit.app](https://mc2-agentic-scoring-86fpsvp6vqjmdycwwyxujt.streamlit.app/)**
-📦 **Dépôt GitHub :** _à compléter_
+📦 **Dépôt GitHub :** 
 
 > Trois agents d'intelligence artificielle transforment les traces de la vie économique rurale — Mobile
 > Money, tontines, paiements d'intrants agricoles, rendements de récolte — en un score de confiance
