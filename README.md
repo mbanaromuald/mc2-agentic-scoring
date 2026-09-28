@@ -1,8 +1,5 @@
 # Système Agentique de Credit Scoring Alternatif et de Conseil Rural
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 **MC2 · Groupe SAPA (Société Africaine de Participation)**
 Projet conçu et réalisé par **Romuald MBANA MEDJO**
 
