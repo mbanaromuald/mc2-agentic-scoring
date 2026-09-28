@@ -3,4 +3,14 @@ chroma_db/
 __pycache__/
 *.pyc
 .venv/
+<<<<<<< HEAD
 .streamlit/secrets.toml
+=======
+<<<<<<< HEAD
+venv/
+.streamlit/secrets.toml
+.DS_Store
+=======
+.streamlit/secrets.toml
+>>>>>>> a06c9023fba643c4cb12587010ba021eb20b7d9e
+>>>>>>> efb9db474e7a81260356fba083a9579f229834e2
