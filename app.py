@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 """MC2 - Systeme Agentique de Credit Scoring Alternatif et de Conseil Rural."""
 try:
     __import__("pysqlite3")
@@ -9,9 +6,6 @@ try:
 except ImportError:
     pass  # environnement local avec un sqlite3 deja recent (ex: image Docker)
 
-=======
->>>>>>> a06c9023fba643c4cb12587010ba021eb20b7d9e
->>>>>>> efb9db474e7a81260356fba083a9579f229834e2
 import json
 import os
 
