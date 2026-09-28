@@ -9,10 +9,4 @@ pandas>=2.0
 numpy>=1.26
 plotly>=5.22
 python-dotenv>=1.0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-pysqlite3-binary>=0.5
-=======
->>>>>>> a06c9023fba643c4cb12587010ba021eb20b7d9e
->>>>>>> efb9db474e7a81260356fba083a9579f229834e2
+
