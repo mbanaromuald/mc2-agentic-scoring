@@ -1,0 +1,26 @@
+name: Vérification du projet
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  compile-and-smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python -m py_compile app.py agents/*.py core/*.py
+      - name: Test de fumée de l'interface (sans clé Groq)
+        run: |
+          CHROMA_DIR=/tmp/chroma python - <<'PY'
+          from streamlit.testing.v1 import AppTest
+          at = AppTest.from_file("app.py", default_timeout=60).run()
+          assert not at.exception, at.exception
+          at.button[0].click().run()
+          assert not at.exception, at.exception
+          print("OK")
+          PY
